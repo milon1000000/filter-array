@@ -29,10 +29,16 @@
 // This is find array
 
 
-var numArray=[11,22,33,44,55,66,77,89,99];
-var result=numArray.find(function(value){
-    return value>30;
-})
+// var numArray=[11,22,33,44,55,66,77,89,99];
+// var result=numArray.find(function(value){
+//     return value>30;
+// })
+// document.write(result)
+
+var numArray=[11,22,33,44,55,66,88,77,99];
+var result=numArray.findIndex(function(value){
+    return value>60;
+});
 document.write(result)
 
 
